@@ -1,3 +1,7 @@
+<img width="511" height="1080" alt="image" src="https://github.com/user-attachments/assets/a623bb70-b441-4ebd-9466-735de74271a3" />
+
+
+
 # Chat-Rodi : vendeur WhatsApp intelligent pour la boutique d'Afi (Dantokpa)
 
 Chat-Rodi répond aux clients de la boutique sur WhatsApp : il cherche les produits, vérifie le stock,

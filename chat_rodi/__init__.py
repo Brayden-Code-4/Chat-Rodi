@@ -1,2 +1,1 @@
-
-­F‡b½éİzêÖ…«lšb×¥–(Úhº¹Zn‹­Š«tâ©í¢JZ
+"""Chat-Rodi : vendeur WhatsApp intelligent pour la boutique d'Afi (Dantokpa)."""

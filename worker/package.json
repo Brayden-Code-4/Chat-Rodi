@@ -1,3 +1,15 @@
-©r­®‡bÂŠäzºkŠö­zÚîzÜ©zjºW¬r¸©¶Ç^¿
-Ú	^­×¯uêe£,+jx%z·^¦Z2·*^rœ’Û&Š×^¼7©zw^È²Ü©zÇ+Š›yãL+jx%z½úÓG%¢ç_•ªŞÿ
-+‘êì·*^³´Û9ÓM
+{
+  "name": "chat-rodi-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "wrangler": "^3.60.0",
+    "@cloudflare/workers-types": "^4.20240500.0"
+  }
+}

@@ -1,2 +1,15 @@
+"""Chargement minimal de .env (bibliothÃ¨que standard). Ne remplace jamais une variable dÃ©jÃ  dÃ©finie."""
+import os
 
-«éžžÙ¢ž)š•×žžöânX¨¶®zËZÖ«t×«zjeiÇ£jf¢²éÞ½ªâi¹^v7_ŠxžŠjh®Ú,uçå¡§^žúZ¶-¬Ú'xÚ'z–­†–­†Šè²–­†:"ž‹ z×0uéï‰ùè¶‹)jØ^Æ+-²–­†·­º¹ðŠØh¥ééjØ^ÊŠx
+
+def load_env(path: str = None) -> None:
+    path = path or os.path.join(os.getcwd(), ".env")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            os.environ.setdefault(key.strip(), value.strip())

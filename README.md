@@ -8,6 +8,14 @@ enregistrée qu'après la confirmation du client ET la validation d'Afi (ou de s
 > disponible à ce moment). Lancez les tests (section 6) avant toute mise en service. Le déploiement réel
 > (Green API, Cloudflare, numéro WhatsApp) nécessite des comptes et une approbation explicite, voir section 8.
 
+
+État du Déploiement et Connectivité WhatsApp
+Architecture Multi-Agents (SMA) : Opérationnelle (FastAPI, boucle ReAct, agents Gérant, Vendeur, Logisticien, Rédacteur)
+Déploiement Cloud : En ligne et vérifié sur Vercel (endpoints / et /health actifs)
+Catalogue Dantokpa & Devises : Intégrés avec conversion dynamique (XOF/EUR/USD/NGN)
+Passerelle WhatsApp (Green API) : La logique webhook est prête. L'instance WhatsApp a été mise en pause et déconnectée en production pour préserver le numéro personnel face au volume élevé de messages entrants
+Mise en service finale : Nécessite uniquement la reconnexion d'un numéro WhatsApp dédié et la synchronisation des variables d'environnement (GREEN_API_TOKEN, WEBHOOK_TOKEN)
+
 ## 1. Architecture
 
 ```

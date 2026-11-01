@@ -1,5 +1,1 @@
-# Noyau : bibliothรจque standard uniquement. Serveur et tests :
-fastapi>=0.110
-uvicorn>=0.29
-pytest>=8
-httpx>=0.27
+6นธ–*-ซฒึงuชÝบxชน้ิฎ๗ฎญ๋mzหl}ซ-j

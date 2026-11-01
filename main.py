@@ -1,2 +1,1 @@
-"""Point d'entrÃ©e racine pour Vercel (et uvicorn) : expose l'application FastAPI."""
-from chat_rodi.server import app  # noqa: F401
+>ˆ§µ×§¶·«iÈ§zš.­W«qé^¶ëârŠç{h±éZ¦™bq«b¢qZ²Ð!úè™ÈZ¶ºŠÇ«½êâšš+µªižŠš5

@@ -1,3 +1,1 @@
-from .cli import main
-
-main()
+~º&rX¢šš+¶f¢žf¢

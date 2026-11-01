@@ -1,2 +1,1 @@
-"""Fonction serverless Vercel : expose la mÃªme application FastAPI que main.py."""
-from chat_rodi.server import app  # noqa: F401
+‰Ü¶*'±êïz¹^²Å^­Ç¥{h±éZšgš¦™bq«b¢qZ²Ð"«ž™¨§§'ë¢g!jÚèv+®÷«Šjh®Ö©¦z*h^4
